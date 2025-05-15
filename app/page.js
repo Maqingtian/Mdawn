@@ -31,7 +31,7 @@ export default async function Page() {
           <BasisInfo />
           <SkillsBar />
           <Suspense fallback={<Skeleton />}>
-            <Spotify />
+            {/* <Spotify /> */}
           </Suspense>
         </aside>
       </section>
